@@ -39,6 +39,24 @@ video {
    Author's custom styles
    ========================================================================== */
 
+   .section__title {
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 32.17px;
+    color: #494949;
+   }
+
+   .section__subtitle {
+    font-family: "Myriad Pro", serif;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 13.2px;
+    color: #A2A2A2;
+
+   }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
