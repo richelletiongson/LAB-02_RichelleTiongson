@@ -26,6 +26,10 @@ html {
 .banner{
   background-color:lightgray;
 }
+
+#section-background{
+  background-color: white;
+}
 /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
