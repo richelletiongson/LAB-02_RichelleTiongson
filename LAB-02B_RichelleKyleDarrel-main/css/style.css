@@ -30,6 +30,10 @@ html {
 #section-background{
   background-color: white;
 }
+
+.footer__background{
+  background-color: navy;
+}
 /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
