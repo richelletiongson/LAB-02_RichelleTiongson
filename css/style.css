@@ -10,8 +10,11 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+* {
+  box-sizing: border-box;
+}
 
-html {
+html, body {
   color: #222;
   font-family: "Ubuntu", serif;
   font-size: 1em;
@@ -52,6 +55,7 @@ video {
     text-align: center;
     line-height: 32.17px;
     color: #494949;
+    margin: 0;
    }
 
    .section__subtitle {
@@ -61,12 +65,11 @@ video {
     text-align: center;
     line-height: 13.2px;
     color: #A2A2A2; 
-
    } /*font not working*/
 
    .section__content {
-    width: 100 px;
-    height: 75 px;
+    max-width: 1010 px;
+    height: 537 px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -79,7 +82,7 @@ video {
     width: 320px;
     height: 256px;
     color: white;
-    background-color: darkblue; /*place-holder*/
+    background-color: burlywood; /*place-holder*/
     position: relative;
    }
 
@@ -88,7 +91,7 @@ video {
     height: 34.28px;
     text-align: center;
     background-color: #D8605F;
-    /*font-weight: 400;*/
+    font-weight: 400;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -105,7 +108,52 @@ video {
     font-size: 8px;
     line-height: 9.19px;
     margin: 0;
+  } /*Ubuntu font is thicker than mockup*/
+
+  .calendar-item__info {
+    width: 320px;
+    height: 48px;
+    text-align: left;
+    font-weight: 400;
+    background-color: #19B2DE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    padding-left: 16px;
+    padding-right: 16px;
   }
+
+  .calendar-item__topic {
+    font-size: 11px;
+    line-height: 12.64px;
+    margin: 0;
+  }
+
+  .calendar-item__icon {
+    width: 28px;
+    height: 28px;
+    background-color: #1596BD; /*place-holder for calendar image*/
+    justify-self: end;
+    margin-left: auto;
+  }
+
+  .work-box {
+    width: 320px;
+    height: 256px;
+    background-color: burlywood; /*place-holder*/
+  }
+
+  .section__contentimages {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    max-width: 1010px; 
+    margin: 0 auto;
+    gap: 25px;
+  } 
+
+
 
   
 
