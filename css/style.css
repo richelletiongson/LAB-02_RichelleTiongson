@@ -65,11 +65,12 @@ video {
    } /*font not working*/
 
    .section__content {
+    width: 100 px;
+    height: 75 px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    max-width: 80%;
    }
 
 /* ==========================================================================
