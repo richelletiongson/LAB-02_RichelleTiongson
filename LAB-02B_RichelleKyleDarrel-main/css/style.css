@@ -24,7 +24,7 @@ html {
 }
 
 .banner{
-  background-color:lightgray;
+  background-color: #EBEBEB;
 }
 
 #section-background{
@@ -32,7 +32,7 @@ html {
 }
 
 .footer__background{
-  background-color: navy;
+  background-color: #0E2E4E;
 }
 /*
  * Remove the gap between audio, canvas, iframes,
