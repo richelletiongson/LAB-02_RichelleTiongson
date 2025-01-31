@@ -75,10 +75,38 @@ video {
    }
 
    .calendar-item {
+    font-family: "Ubuntu", serif;
     width: 320px;
     height: 256px;
-    background-color: aquamarine; /*place-holder*/
+    color: white;
+    background-color: darkblue; /*place-holder*/
+    position: relative;
    }
+
+   .calendar-item__date {
+    width: 56px;
+    height: 34.28px;
+    text-align: center;
+    background-color: #D8605F;
+    /*font-weight: 400;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .calendar-item__heading { 
+    font-size: 16px;
+    line-height: 18.38px;
+    margin: 0;
+   }
+
+  .calendar-item__subtitle {
+    font-size: 8px;
+    line-height: 9.19px;
+    margin: 0;
+  }
+
   
 
 /* ==========================================================================
