@@ -22,6 +22,10 @@ html {
 .navbar {
   background-color: white;
 }
+
+.banner{
+  background-color:lightgray;
+}
 /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
