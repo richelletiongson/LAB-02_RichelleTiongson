@@ -17,7 +17,7 @@
 html, body {
   color: #222;
   font-family: "Ubuntu", serif;
-  font-size: 1em;
+  /*font-size: 1em;*/
   line-height: 1.4;
 }
 
@@ -82,6 +82,7 @@ video {
 
    .calendar-item {
     font-family: "Ubuntu", serif;
+    font-weight: 400;
     width: 320px;
     height: 256px;
     color: white;
@@ -94,7 +95,6 @@ video {
     height: 34.28px;
     text-align: center;
     background-color: #D8605F;
-    font-weight: 400;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -103,15 +103,17 @@ video {
 
    .calendar-item__heading { 
     font-size: 16px;
+    font-weight: 300;
     line-height: 18.38px;
     margin: 0;
    }
 
   .calendar-item__subtitle {
     font-size: 8px;
+    font-weight: 300; 
     line-height: 9.19px;
     margin: 0;
-  } /*Ubuntu font is thicker than mockup*/
+  }
 
   .calendar-item__info {
     width: 320px;
@@ -130,6 +132,7 @@ video {
 
   .calendar-item__topic {
     font-size: 11px;
+    font-weight: 300;
     line-height: 12.64px;
     margin: 0;
   }
