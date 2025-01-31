@@ -55,7 +55,7 @@ video {
     text-align: center;
     line-height: 32.17px;
     color: #494949;
-    margin: 0;
+    margin-bottom: 0;
    }
 
    .section__subtitle {
@@ -64,7 +64,9 @@ video {
     font-weight: 400;
     text-align: center;
     line-height: 13.2px;
-    color: #A2A2A2; 
+    color: #A2A2A2;
+    margin-top: 5px;
+    margin-bottom: 35px;
    } /*font not working*/
 
    .section__content {
